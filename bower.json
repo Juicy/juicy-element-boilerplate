@@ -1,16 +1,17 @@
 {
     "name": "my-repo",
     "version": "0.0.0",
-    "description": "My awesome Custom Element",
+    "description": "Awesome, Juicy Custom Element",
     "license": "MIT",
-    "main": "src/my-element.html",
+    "main": "src/juicy-element.html",
     "keywords": [
         "web-components"
     ],
     "ignore": [
         "**/.*",
         "node_modules",
-        "bower_components"
+        "bower_components",
+        "preview.png"
     ],
     "dependencies": {
         "platform": "Polymer/platform#~0.3.2"
