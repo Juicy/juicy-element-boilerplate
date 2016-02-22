@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "description": "Awesome, Juicy Custom Element",
     "license": "MIT",
-    "main": "src/juicy-element.html",
+    "main": "juicy-element.html",
     "keywords": [
         "web-components"
     ],
@@ -14,6 +14,6 @@
         "preview.png"
     ],
     "dependencies": {
-        "platform": "Polymer/platform#^0.4.2"
+        "webcomponentsjs": "^0.7.2"
     }
 }

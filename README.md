@@ -20,16 +20,16 @@ Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/master.zip).
 
 ## Usage
 
-1. Import Web Components' polyfill:
+1. Import polyfill:
 
     ```html
-    <script src="bower_components/platform/platform.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
     ```
 
-2. Import Custom Element:
+2. Import custom element:
 
     ```html
-    <link rel="import" href="bower_components/juicy-element/src/juicy-element.html">
+    <link rel="import" href="bower_components/juicy-element/juicy-element.html">
     ```
 
 3. Start using it!
@@ -56,13 +56,27 @@ Event         | Description
 ---           | ---
 `onsomething` | Triggers when something happens.
 
-## Contributing
+## Development
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+In order to run it locally you'll need to fetch some dependencies and a basic server setup.
+
+1. Install [bower](http://bower.io/) & [polyserve](https://npmjs.com/polyserve):
+
+    ```sh
+    $ npm install -g bower polyserve
+    ```
+
+2. Install local dependencies:
+
+    ```sh
+    $ bower install
+    ```
+
+3. Start development server and open `http://localhost:8080/components/juicy-element/`.
+
+    ```sh
+    $ polyserve
+    ```
 
 ## History
 
