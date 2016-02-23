@@ -11,7 +11,9 @@
         "**/.*",
         "node_modules",
         "bower_components",
-        "preview.png"
+        "preview.png",
+        "package.json",
+        "Gruntfile.json"
     ],
     "dependencies": {
         "webcomponentsjs": "^0.7.2"
