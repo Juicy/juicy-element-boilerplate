@@ -1,21 +1,25 @@
 {
-    "name": "my-repo",
-    "version": "0.0.0",
-    "description": "Awesome, Juicy Custom Element",
-    "license": "MIT",
-    "main": "juicy-element.html",
-    "keywords": [
-        "web-components"
-    ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "preview.png",
-        "package.json",
-        "Gruntfile.json"
-    ],
-    "dependencies": {
-        "webcomponentsjs": "^0.7.2"
-    }
+  "name": "juicy-element",
+  "version": "0.0.0",
+  "description": "Awesome, Juicy Custom Element",
+  "license": "MIT",
+  "main": "juicy-element.html",
+  "keywords": [
+    "web-components",
+    "juicy"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "preview.png",
+    "package.json",
+    "Gruntfile.json"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^0.7.2"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.2.1"
+  }
 }
