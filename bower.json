@@ -12,6 +12,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "test",
     "preview.png",
     "package.json",
     "Gruntfile.json"
