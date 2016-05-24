@@ -70,4 +70,4 @@ For detailed changelog, check [Releases](https://github.com/Juicy/juicy-element/
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+MIT
