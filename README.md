@@ -16,7 +16,7 @@ Install the component using [Bower](http://bower.io/):
 $ bower install juicy-element --save
 ```
 
-Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/master.zip).
+Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/gh-pages.zip).
 
 ## Usage
 
@@ -56,13 +56,7 @@ Event         | Description
 ---           | ---
 `onsomething` | Triggers when something happens.
 
-## Development
-
-In order to develop it locally we suggest to use [polyserve](https://npmjs.com/polyserve) tool to handle bower paths gently.
-
-1. Install [bower](http://bower.io/) & [polyserve](https://npmjs.com/polyserve): `$ npm install -g bower polyserve`
-2. Install local dependencies: `$ bower install`
-3. Start development server `$ polyserve` and open `http://localhost:8080/components/juicy-element/`.
+## [Contributing and Development](CONTRIBUTING.md)
 
 ## History
 
