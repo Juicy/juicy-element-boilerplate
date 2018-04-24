@@ -1,23 +1,28 @@
 <!-- juicy-element @version: 0.0.0 @license: MIT -->
 <script>
-(function() {
-    // Creates an object based in the HTML Element prototype
-    var JuicyElementPrototype = Object.create(HTMLElement.prototype);
+    customElements.define('juicy-element', class extends HTMLElement {
+        // List of attributes observed for attributeChangedCallback
+        static get observedAttributes() {
+            return [];
+        }
 
-    // Fires when an instance of the element is created
-    JuicyElementPrototype.createdCallback = function() {};
+        // Fires when an instance of the element is created
+        constructor() {
+            super();
+        }
+        // Fires when an instance was inserted into the document
+        connectedCallback() {
 
-    // Fires when an instance was inserted into the document
-    JuicyElementPrototype.attachedCallback = function() {};
+        }
 
-    // Fires when an instance was removed from the document
-    JuicyElementPrototype.detachedCallback = function() {};
+        // Fires when an instance was removed from the document
+        disconnectedCallback() {
 
-    // Fires when an attribute was added, removed, or updated
-    JuicyElementPrototype.attributeChangedCallback = function(attr, oldVal, newVal) {};
+        };
 
-    document.registerElement('juicy-element', {
-        prototype: JuicyElementPrototype
+        // Fires when an attribute was added, removed, or updated
+        attributeChangedCallback(attr, oldVal, newVal) {
+
+        };
     });
-}());
 </script>
