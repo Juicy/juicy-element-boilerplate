@@ -17,7 +17,7 @@ addons:
 script:
 - xvfb-run wct --skip-plugin sauce
 - if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then wct --skip-plugin local --plugin
-  sauce -s default; fi
+  sauce; fi
 env:
   global:
   - secure: PegaunKL95uQHOEaImW/iW8EMN7ppbByG0vBKS0KOjvH/qsmjUsfXDtw6pXgE1feNQY7S88NZfchzpW1gmPDNZO1vzcErQ/KcRuwcNwv3iUBt1y1KihLWZyZkvlWcznXcK4JIZpvKEkt6ffAYsWXXepFLBSMuMnI7VKWjVuc4xY=
