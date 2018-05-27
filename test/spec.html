@@ -27,8 +27,8 @@
         });
 
         it('should be upgraded element', function() {
-            expect(juicyElement).to.be.an.instanceOf(HTMLElement);
-            expect(juicyElement).to.be.not.an.instanceOf(HTMLUnknownElement);
+            expect(customElements.get('juicy-element')).to.be.defined;
+            expect(juicyElement).to.be.an.instanceOf(customElements.get('juicy-element'));
         });
     });
 </script>
